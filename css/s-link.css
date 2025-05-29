@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(179, 89, 6); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: hsl(34, 99%, 52%); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(34, 70%, 42%); 
+}
+
+.arsenal-regular {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arsenal-bold {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.arsenal-regular-italic {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arsenal-bold-italic {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.puritan-regular {
+  font-family: "Puritan", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.puritan-bold {
+  font-family: "Puritan", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.puritan-regular-italic {
+  font-family: "Puritan", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.puritan-bold-italic {
+  font-family: "Puritan", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.rank {
+  background-image: url(../img/rank-bg.png);
+  background-size: contain;
+  width: 813px;
+  height: 372px;
+  margin: 0;
+}
+
+.s-link-title {
+ color: white;
+ position: absolute;
+ margin: 0px;
+ top: 160px; 
+ width: 813px;
+ text-align: center;
+ font-size: 35px;
+ font-weight: 600;
+}
+
+.arcana {
+  position: absolute;
+  top: 150px;
+  left: 175px;
+  width: 813px;
+  font-size: 65px;
+}
+
+.rank-no {
+  position: absolute;
+  top: 105px;
+  left: 550px;
+  width: 200px;
+  color: black;
+  font-size: 190px;
+  text-align: center;
+  margin: 0px;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+}
+
+.stars {
+  position: absolute;
+  margin: 0px;
+  top: 300px;
+  left: 230px;
+  font-size: 25px;
+}
+
+.slink-desc {
+  position: absolute;
+  left: 65px;
+  width: 600px;
+  font-size: 30px;
+  color: rgb(255, 249, 239);
+  height: 510px;
+  overflow-y: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(142, 88, 0, 0.2);
+}
+
+.portrait {
+  float:right;
+}
+
+.info {
+  background-image: url(../img/info-bg.png);
+  background-size: contain;
+  width: 701px;
+  height: 259px;
+  
+  position: absolute;
+  bottom: 30px;
+  right: 120px;
+
+}
+
+.name {
+  position: absolute;
+  font-size: 50px;
+  left: 75px;
+  margin-top: 35px;
+  color: rgb(255, 234, 200);
+}
+
+.ppl-desc {
+  position: absolute;
+  font-size: 25px;
+  left: 90px;
+  margin-top: 95px;
+  color: rgb(255, 249, 239);
+  width: 75%;
+}
+
+.portrait {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  height: 80%;
+}
+
+.back-btn {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  transition: transform 0.3s ease;
+}
+.back-btn:hover {
+  transform: scale(1.2);
+}
+
+a {
+  text-decoration-color: white;
+  color: white;
+}
