@@ -200,3 +200,16 @@ a {
   text-decoration-color: white;
   color: white;
 }
+
+.fool-text {
+  position: absolute;
+  left: 65px;
+  width: 70%;
+  font-size: 30px;
+  color: rgb(255, 249, 239);
+  height: 90%;
+  overflow-y: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(86, 53, 0, 0.259);
+}
